@@ -6,9 +6,11 @@ A simple command-line tool to display random dark quotes directly in your termin
 
 ### Installation
 ```bash
+cd /opt
 git clone https://github.com/Blziko/darksay
 chmod +x darksay/darksay.rb
-sudo ln -sf $HOME/darksay/darksay.rb /usr/bin/darksay
+ln -sf darksay/darksay.rb /usr/bin/darksay
+cd
 ```
 
 ### Usage
